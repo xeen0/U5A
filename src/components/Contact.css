@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Calibri:400, 300, 700);
+
+.container_contact {
+  background: linear-gradient(#000000, #434343);
+  position: absolute;
+  top: 495vh;
+  margin: 0;
+  height: 50em;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+  padding-top: 15px;
+  text-align: center;
+}
+.contact_box::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.tounskew_1 {
+  transform: skewY(4deg);
+}
+.icons1 {
+  margin: 0 15px;
+  color: black;
+}
+
+.icons1 :hover {
+  color: white;
+}
+
+
+
+
+@media only screen and (max-width: 1470px) {
+    .container_contact {
+        top: 560vh;
+        height: 40em;
+    }
+}
+@media only screen and (max-width: 1024px) {
+  .container_contact {
+      top: 425vh;
+      height: 50em;
+  }
+  .icons1{
+    font-size: 10px;
+  }
+}
+ 
+@media only screen and (max-width: 770px) {
+  .container_contact {
+      top: 450vh;
+      height: 50em;
+  }
+  .icons1{
+    font-size: 10px;
+  }
+}
+   
+@media only screen and (max-width: 420px) {
+  .container_contact {
+      top: 885vw;
+      height: 20em;
+  }
+  .icons1{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container_contact {
+      top: 910vw;
+      height: 20em;
+  }
+  .icons1{
+    font-size: 10px;
+  }
+}
+
+
+@media only screen and (width: 375px) and(height:667px) {
+  .container_contact {
+      top: 470vh;
+      height: 20em;
+  }
+  .icons1{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .container_contact {
+      top: 550vh;
+      height: 20em;
+  }
+  .icons1{
+    font-size: 10px;
+  }
+}

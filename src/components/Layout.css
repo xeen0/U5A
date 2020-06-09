@@ -1,0 +1,31 @@
+html,
+body {
+	margin: 0;
+  font-family: arial,helvetica;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+header {
+  background-color:rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid #556270;
+}
+
+footer {
+   color: #000;
+}
+
+
+
+
