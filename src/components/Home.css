@@ -36,6 +36,17 @@
   margin-top: 5em;
   left: 4em;
 }
+.sub1 {
+  text-underline-position: below;
+  color: orange;
+  font-family: serif;
+  text-shadow: 0 0 20px black;
+  position: absolute;
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 16em;
+  left: 20em;
+}
 .container_home::after {
   position: absolute;
   width: 100%;

@@ -3,9 +3,9 @@
 .container_contact {
   background: linear-gradient(#000000, #434343);
   position: absolute;
-  top: 495vh;
+  top: 515vh;
   margin: 0;
-  height: 50em;
+  /* height: 100rem; */
   width: 100%;
   overflow: hidden;
   z-index: 10;
@@ -35,13 +35,13 @@
 
 @media only screen and (max-width: 1470px) {
     .container_contact {
-        top: 560vh;
-        height: 40em;
+        top: 550vh;
+        height: 50em;
     }
 }
 @media only screen and (max-width: 1024px) {
   .container_contact {
-      top: 425vh;
+      top: 400vh;
       height: 50em;
   }
   .icons1{

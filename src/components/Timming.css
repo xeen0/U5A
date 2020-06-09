@@ -34,6 +34,7 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  left: 13px;
 }
 .card {
   width: 21%;
