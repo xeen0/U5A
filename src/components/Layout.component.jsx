@@ -6,7 +6,6 @@ import AcadamicsComponent from "./Acadamics.component";
 import TimmingsComponent from "./Timming.component";
 import ContactComponent from "./Contact";
 import scrollToComponent from "react-scroll-to-component";
-import Section from "./Section";
 import { useState, useEffect } from "react";
 import logo from "../logo.svg";
 // import Nav from 'react-bootstrap/Nav'
