@@ -8,13 +8,13 @@ import drums from "../drums.jpg";
 import paint from "../paint.jpg";
 const AcadamicsComponent = () => {
   return (
-    <div>
-        <div className="skew1">
-          <Parallax speed={-0.7}>
+    <div className="container_Acadamics skew1">
+        {/* <div className="skew1"> */}
+          <Parallax speed={-0.1}>
             <div className="title1 unskew1">Courses</div>
           </Parallax>
 
-          <Parallax speed={-1.5}>
+          <Parallax speed={0}>
             <div
               className="unskew1"
               style={{ display: "flex", flexWrap: "wrap", marginTop: "0px" }}
@@ -29,7 +29,7 @@ const AcadamicsComponent = () => {
               />
             </div>
           </Parallax>
-        </div>
+        {/* </div> */}
       </div>
   );
 };

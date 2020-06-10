@@ -1,15 +1,16 @@
+.container_Acadamics{
+  /* background: linear-gradient(#ff512f, #dd2476); */
+  background:linear-gradient(#434343  , #000000);
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
 .skew1{
-    background:linear-gradient(#434343  , #000000);
-
-    position: absolute;
-    top: 140vw;
-    width: 100%;
-    height: 120vw;
-    transform: skewY(-3deg);
-    margin: auto;
-  }
+    transform: skewY(-2deg);
+  } 
 .unskew1{
-    transform: skewY(3deg);
+    transform: skewY(2deg);
 }
 .title1{
   font-family: 'baloo';
@@ -21,7 +22,7 @@
 }
 
 
-@media screen and (max-width: 1030px) {
+/* @media screen and (max-width: 1030px) {
   .skew1{
     top:190vw ; 
     height: 350vw;
@@ -68,4 +69,4 @@
   .title1{
     font-size: 15vw;
   }
-}
+} */

@@ -2,15 +2,16 @@
 
 .container_contact {
   background: linear-gradient(#000000, #434343);
-  position: absolute;
-  top: 515vh;
+  position: relative;
   margin: 0;
-  /* height: 100rem; */
+  height: auto;
   width: 100%;
   overflow: hidden;
-  z-index: 10;
-  padding-top: 15px;
   text-align: center;
+  
+}
+.toskew_1{
+  /* transform: skewY(deg); */
 }
 .contact_box::after {
   display: table;
@@ -19,10 +20,10 @@
 }
 
 .tounskew_1 {
-  transform: skewY(4deg);
+  /* transform: skewY(1deg); */
 }
 .icons1 {
-  margin: 0 15px;
+  margin: auto;
   color: black;
 }
 
@@ -33,7 +34,7 @@
 
 
 
-@media only screen and (max-width: 1470px) {
+/* @media only screen and (max-width: 1470px) {
     .container_contact {
         top: 550vh;
         height: 50em;
@@ -97,4 +98,4 @@
   .icons1{
     font-size: 10px;
   }
-}
+} */
